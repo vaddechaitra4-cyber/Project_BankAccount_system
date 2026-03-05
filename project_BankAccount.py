@@ -6,14 +6,14 @@
 #check account balance
 
 #BankAccount class create chesthunam
-#this class handle deposite,withdraw and balance checking
+#this class handle deposit,withdraw and balance checking
 
 class BankAccount:
 #constructor - account create ayina appudu intial balance set chesthundhi
     def __init__(self,initial_amount=0):
         self.balance=initial_amount
 
-#deposite function - account lo ki money add cheyadaniki
+#deposit function - account lo ki money add cheyadaniki
 
     def deposit(self,amount):
         if amount>0:
